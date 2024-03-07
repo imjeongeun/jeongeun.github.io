@@ -1,0 +1,23 @@
+@import "../reset.css"; /* reset.css는 되도록이면 가장 위에 있는 것이 좋음 ! */
+@import "./common.css";
+@import "../header.css";
+@import "../silder.css";
+@import "../intro.css";
+@import "../product-list.css";
+@import "../footer.css";
+
+body {
+  margin: 0;
+  margin-top: 30px;
+  padding-bottom: 300px;
+  position: relative;
+}
+.main__silder,
+.main__introduction {
+  font-family: "Playfair Display", serif;
+}
+h1 {
+  display: flex;
+  justify-content: center;
+  transform: scale(1.5);
+}

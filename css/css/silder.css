@@ -1,0 +1,78 @@
+.main__silder {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #604f41;
+  padding: 50px;
+  position: relative;
+  height: 100vh;
+  box-sizing: border-box;
+}
+
+.main__silder-btn {
+  display: flex; /*flex 선언 필수*/
+  align-items: center; /* 세로축 중앙 정렬 */
+}
+
+.main__silder-btn i {
+  transform: scale(1.5);
+  color: white;
+}
+
+.main__silder-container {
+  display: flex;
+  flex-direction: column; /*기본값은 row 메인축 가로, column은 메인축 세로*/
+  align-items: center;
+}
+
+.main__silder-text {
+  color: white;
+  text-shadow: 1px 1px 2px black; /*순서 : x축 y축 번짐 정도*/
+  margin: 10px;
+}
+
+.main__silder-image-container {
+  width: 200px;
+  height: 600px;
+  overflow: hidden;
+  display: flex;
+  justify-content: center;
+  border-top-left-radius: 500px;
+  border-top-right-radius: 500px;
+  padding: 10px;
+}
+.main__silder-image {
+  filter: brightness(0.8);
+  z-index: 1;
+}
+
+.main__silder-title {
+  color: white;
+  font-weight: 30px;
+  font-size: 100px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  z-index: 2;
+}
+.main__progress-bar {
+  width: 300px;
+  height: 1px;
+  position: absolute;
+  bottom: 20px;
+  left: 50%;
+  transform: translateX(-50%);
+}
+
+.main__progress-bar-item {
+  height: 100%;
+  color: white;
+}
+.main__progress-bar-item--visible {
+  width: 50%;
+}
+.main__progress-bar-item--invisible {
+  width: 25%;
+  opacity: 0.5;
+}

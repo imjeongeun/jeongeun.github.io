@@ -1,0 +1,9 @@
+.outer__wrapper {
+  height: 80vh;
+}
+.main__product-list {
+  margin: 0;
+}
+.main__product-list-title {
+  margin-bottom: 30px;
+}

@@ -1,0 +1,24 @@
+@import "reset.css";
+@import "header.css";
+@import "silder.css";
+@import "intro.css";
+@import url("https://fonts.googleapis.com/css2?family=Playfair+Display&display=swap");
+
+body {
+  margin: 0;
+  margin-top: 30px;
+  font-family: "Playfair Display", serif;
+}
+div {
+  padding: 30px;
+}
+
+a {
+  text-decoration-line: none;
+  color: black;
+}
+
+ul {
+  margin: 0;
+  font-family: "Anta", sans-serif;
+}
